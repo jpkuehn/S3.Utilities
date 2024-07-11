@@ -18,11 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MailKit" Version="4.6.0" />
+    <PackageReference Include="MailKit" Version="4.7.0" />
     <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.6" />
-    <PackageReference Include="MimeKit" Version="4.6.0" />
-    <PackageReference Include="Umbraco.Cms.Core" Version="13.3.2" />
-    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.3.2" />
+    <PackageReference Include="MimeKit" Version="4.7.1" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="13.4.0" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.4.0" />
   </ItemGroup>
 
 </Project>
