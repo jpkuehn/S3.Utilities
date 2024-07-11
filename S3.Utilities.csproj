@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="S3Speedbump\**" />
+    <EmbeddedResource Remove="S3Speedbump\**" />
+    <None Remove="S3Speedbump\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="SecureEmail\MimeSmtpService-From-File.cs" />
+    <Compile Remove="SecureEmail\MimeSmtpService-From-Store.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.6" />
+    <PackageReference Include="MimeKit" Version="4.6.0" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="13.3.2" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.3.2" />
+  </ItemGroup>
+
+</Project>
